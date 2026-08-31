@@ -4,62 +4,18 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Full Stack Software Engineer
 ----------------------------
 
-Software engineer from Arizona State University.
+Software engineer graduating from Arizona State University in December 2026.
+Currently interning at Can Crops Inc on a three-person Agile Scrum team,
+working on an online store in TypeScript, Node.js, and PostgreSQL, from
+database migrations and request validation through to the frontend.
 
-Currently interning at Can Crops Inc, working on a three-person Agile Scrum
-
-team building an online store in TypeScript with Node.js, Hono, Kysely, and
-
-PostgreSQL: database migrations, Zod request validation, and pull request
-
-reviews on Stripe payments, shipping, and login. I also work on the frontend of
-
-the bilingual storefront that the API serves, and set up the GitHub Actions
-
-pipeline that runs type checks, lint, and Vitest against a containerized
-
-PostgreSQL database on every pull request.
-
-Most of what I build outside work is developer tooling. I publish codeanchor on
-
-npm, a static analysis CLI that reads a whole repository and reports the broken
-
-links between its parts: a README telling you to run a script that no longer
-
-exists, a URL parameter whose name doesn't match the key the handler reads, a
-
-route missing from the OpenAPI spec. It runs 67 rules across four Git-aware
-
-scan modes, backed by 647 Vitest cases, and ships through OIDC trusted
-
-publishing with no long-lived npm token in the project. My favorite rule
-
-catches comments that have drifted from the code beneath them: it works out
-
-which lines a comment owns from indentation and blank lines, then checks
-
-whether the staged diff touched that block while leaving the comment alone. A
-
-deliberate mismatch is approved once and stored as a hash of both halves, so
-
-the approval expires by itself the moment either one is edited.
-
-
-I also wrote Cairn, a self-hosted issue tracker in Rails with per-project
-
-role-based access control and 449 Minitest and Capybara tests, including a
-
-guard test that fails the build when a controller action forgets an
-
-authorization check. 
-
-Moreover, I built StepSnap, which is a native macOS app in Swift and AppKit that
-
-turns a recorded click session into a written guide, deriving each instruction
-
-from the accessibility label of the control clicked, with every system
-
-dependency behind a protocol so 52 XCTest cases run with no window on screen.
+Most of what I build outside work is developer tooling: things that catch a
+problem before a person has to. I publish codeanchor on npm, a static analysis
+CLI that finds the broken links inside a codebase, like a README pointing at a
+script that no longer exists. I also wrote Cairn, a self-hosted issue tracker
+in Rails, and StepSnap, a Mac app that turns a recorded click session into a
+written guide. I care a lot about tests and about making the compiler or the CI
+pipeline catch mistakes instead of a reviewer.
 
 
 * 🌍  I'm based in Gilbert, AZ, USA
