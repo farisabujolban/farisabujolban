@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Full Stack Software Engineer
 ----------------------------
 
-Software engineer graduating from Arizona State University in December 2026.
+Software Engineer studying at Arizona State University.
 Currently working as a Full Stack Software Engineer in a Capstone Project partnered with Can Crops Inc on a three-person Agile Scrum team,
 working on an online store in TypeScript, Node.js, and PostgreSQL, from
 database migrations and request validation through to the frontend.
